@@ -1,105 +1,20 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Junteng Liu"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
-
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
-author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
-
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
-
-
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
-  # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
-
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
-
-# Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+subtitle                 : 
+name                     : "Junteng Liu"
+description              : 
+url                      : "https://delizjerd94.github.io"
+baseurl                  : "/LJT-Homepage"
+repository               : "delizjerd94/LJT-Homepage"
+teaser                   : 
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            :
   discourse:
@@ -108,43 +23,54 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name            : # YOUR_INDEX_NAME
+  search_only_api_key   : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by            : # true (default), false
+github:
+  is_project_page       : false
+  is_repository_page    : false
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
-yandex_site_verification :
-
+yandex_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "junteng88716710"
+og:
+  image                  : # path of image in /images/
+  image_width            : # integer
+  image_height           : # integer
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -152,52 +78,82 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
+    anonymize_ip         : # true, false (default)
 
+# Site Author
+author:
+  name             : "Junteng Liu"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "First-year PhD candidate at HKUST NLP Group."
+  location         : 
+  employer         :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "Vicent0205"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "junteng88716710"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+  email            : "jliugi@connect.ust.hk"
 
 # Reading Files
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - vendor
   - .asset-cache
   - .bundle
-  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/_main.js
   - assets/js/plugins
+  - assets/js/_main.js
   - assets/js/vendor
-  - CHANGELOG
   - Capfile
+  - CHANGELOG
   - config
-  - Dockerfile
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
-  - local
   - log
   - node_modules
-  - package.json*
+  - package.json
   - Rakefile
   - README
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -205,7 +161,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -218,12 +173,13 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# These settings control the outputting of kiwicms
+kiwicms:
+  framed_source: false
+  relative_links: true
 
-# These settings control the types of collections used by the template
+# Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -234,8 +190,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
-# These settings control how pages and collections are included in the site
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -244,26 +199,17 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -271,8 +217,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comment: false
   # _portfolio
   - scope:
       path: ""
@@ -280,49 +226,41 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: single
       author_profile: true
-      share: true
-
+      share: false
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Hong_Kong # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Plugins
+# Plugins (previously gems:)
 plugins:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
-# Mimic GitHub Pages with --safe
+# mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 # Archives
 #  Type
@@ -332,8 +270,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -352,10 +290,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Defaults
+...
