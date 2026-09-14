@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Junteng Liu (刘俊腾), a first-year PhD candidate at the [HKUST NLP Group](https://hkust-nlp.github.io/), supervised by [Professor Junxian He](https://jxhe.github.io/). I graduated from Shanghai Jiao Tong University (SJTU) in June 2024. My research focuses on natural language processing and machine learning.
+I am Junteng Liu, a first-year PhD candidate at the HKUST NLP Group, supervised by Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024. My research focuses on natural language processing and machine learning.
 
 ## Research Interests / Skills
 
@@ -36,15 +36,15 @@ My research interests lie in the following areas:
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**
    <br>**Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He
-   <br>*Arxiv*, 2025. [Code](https://github.com/Vicent0205) available on GitHub.
+   <br>*Arxiv*, 2025. Code available on [GitHub](https://github.com/Vicent0205).
 
 2. **On the Perception Bottleneck of VLMs for Chart Understanding**
    <br>**Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
-   <br>*Arxiv*, 2025. [Code](https://github.com/Vicent0205/Vision4Chart) available on GitHub.
+   <br>*Arxiv*, 2025. Code available on GitHub: Vision4Chart.
 
 3. **On the Universal Truthfulness Hyperplane Inside LLMs**
    <br>**Junteng Liu**, Shiqi Chen, Yu Cheng, Junxian He
-   <br>*EMNLP 2024*. [Code](https://github.com/Vicent0205/Universal_Truthfulness_Hyperplane) available on GitHub.
+   <br>*EMNLP 2024*. Code available on GitHub: Universal_Truthfulness_Hyperplane.
 
 **Co-authored papers:**
 
