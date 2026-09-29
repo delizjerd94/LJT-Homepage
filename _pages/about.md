@@ -1,5 +1,7 @@
 ---
-permalink: /
+title: "About"
+permalink: /about/
+author_profile: true
 ---
 
 # About Me
@@ -27,9 +29,9 @@ I received my B.Eng. from Shanghai Jiao Tong University (SJTU) in June 2024.
 
 - Zhiyuan Honor Scholarship, Shanghai Jiao Tong University (2023)
 
-## Selected Publications
+## Publications
 
-See the [Publications](/publications/) page for the full list.
+Full list also on the [Publications](/publications/) page.
 
 - **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**
   *Junteng Liu*, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. **arXiv, 2025**. [[Code]](https://github.com/Vicent0205/SynLogic)
