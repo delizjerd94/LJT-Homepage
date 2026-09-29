@@ -6,20 +6,19 @@ site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
-description              : &description "Junteng Liu's academic homepage — Ph.D. candidate at HKUST NLP Group."
+description              : &description "Junteng Liu's academic homepage"
 url                      : https://delizjerd94.github.io
 baseurl                  : "/LJT-Homepage"
 repository               : "delizjerd94/LJT-Homepage"
 
 # Site Author
 author:
-  # Biographic information
   avatar           : "profile.png"
   name             : "Junteng Liu"
   pronouns         :
-  bio              : "Ph.D. Candidate at HKUST NLP Group. Research: LLM Reasoning, RL, VLM Hallucination, LLM Truthfulness & Interpretability."
-  location         : "Hong Kong, China"
-  employer         : "Hong Kong University of Science and Technology (HKUST)"
+  bio              : "First-year PhD candidate at HKUST NLP Group. Research: Natural Language Processing and Machine Learning."
+  location         :
+  employer         :
   uri              :
   email            : "jliugi@connect.ust.hk"
 
@@ -281,14 +280,12 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
 
-# HTML Compression
 compress_html:
   clippings: all
   ignore:
