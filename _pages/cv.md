@@ -1,64 +1,41 @@
 ---
-layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+# Curriculum Vitae
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (HKUST), 2024 – Present
+  - Advisor: Prof. Junxian He (HKUST NLP Group)
+- **B.Eng.**, Shanghai Jiao Tong University (SJTU), 2020 – 2024
+  - Graduated June 2024
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **Research Intern**, MINIMAX (Feb. 2025 – Present)
+- **Research Intern**, Tencent WXG (Jun. 2024 – Sep. 2024)
+  - Advisor: Zifei Shan
+- **Research Intern**, Shanghai AI Lab (Jun. 2023 – Dec. 2023)
+  - Advisor: Prof. Yu Cheng
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Honors & Awards
+
+- Zhiyuan Honor Scholarship, Shanghai Jiao Tong University (2023)
+
+## Research Interests
+
+- Natural Language Processing
+- Machine Learning
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
+
+## Contact
+
+- Email: jliugi@connect.ust.hk
+- GitHub: https://github.com/Vicent0205
+- Google Scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ
+- X (Twitter): https://x.com/junteng88716710
